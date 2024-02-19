@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Calculadora</title>
+</head>
+<body>
+    <main>
+        <section id="header">
+            <div id="display">
+                <p id="display-number">0</p>
+            </div>
+        </section>
+        <section id="numbers">
+            <div class="keyboard operator" value="%" onclick="calc(this)"><div>%</div></div>
+            <div class="keyboard clear" value="CE" onclick="calc(this)"><div>CE</div></div>
+            <div class="keyboard clear" value="C" onclick="calc(this)"><div>C</div></div>
+            <div class="keyboard clear" value="<|X|" onclick="calc(this)"><div><|X|</div></div>
+            <div class="keyboard number" value="1/x" onclick="calc(this)"><div>1/x</div></div>
+            <div class="keyboard operator" value="²" onclick="calc(this)"><div>x²</div></div>
+            <div class="keyboard operator" value="²√" onclick="calc(this)"><div>²√x</div></div>
+            <div class="keyboard operator" value="/" onclick="calc(this)"><div>/</div></div>
+            <div class="keyboard number" value="7" onclick="calc(this)"><div>7</div></div>
+            <div class="keyboard number" value="8" onclick="calc(this)"><div>8</div></div>
+            <div class="keyboard number" value="9" onclick="calc(this)"><div>9</div></div>
+            <div class="keyboard operator" value="x" onclick="calc(this)"><div>x</div></div>
+            <div class="keyboard number" value="4" onclick="calc(this)"><div>4</div></div>
+            <div class="keyboard number" value="5" onclick="calc(this)"><div>5</div></div>
+            <div class="keyboard number" value="6" onclick="calc(this)"><div>6</div></div>
+            <div class="keyboard operator" value="-" onclick="calc(this)"><div>-</div></div>
+            <div class="keyboard number" value="1" onclick="calc(this)"><div>1</div></div>
+            <div class="keyboard number" value="2" onclick="calc(this)"><div>2</div></div>
+            <div class="keyboard number" value="3" onclick="calc(this)"><div>3</div></div>
+            <div class="keyboard operator" value="+" onclick="calc(this)"><div>+</div></div>
+            <div class="keyboard operator" value="+/-" onclick="calc(this)"><div>+/-</div></div>
+            <div class="keyboard number" value="0" onclick="calc(this)"><div>0</div></div>
+            <div class="keyboard number" value="." onclick="calc(this)"><div>.</div></div>
+            <div class="keyboard result" value="=" onclick="calc(this)"><div>=</div></div>   
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
